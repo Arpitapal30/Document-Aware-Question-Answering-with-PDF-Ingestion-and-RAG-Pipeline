@@ -7,10 +7,10 @@ import openai
 import numpy as np
 
 # ============ Configuration ============
-OPENAI_API_KEY = "*****************"  # REPLACE with your actual key
+OPENAI_API_KEY = "*****************"  
 openai.api_key = OPENAI_API_KEY
 
-PDF_PATH = r"C:\Users\DELL\Desktop\RAG App\sample.pdf"  # Modify your path
+PDF_PATH = r"C:\Users\DELL\Desktop\RAG App\sample.pdf"  
 CHUNK_SIZE = 300
 TOP_K = 3
 EMBED_MODEL = "all-MiniLM-L6-v2"
